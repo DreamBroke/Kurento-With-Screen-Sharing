@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dbl-video:war exploded">
+    <output-path>$PROJECT_DIR$/target/dblvideo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dbl-video" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.jfinal:jfinal:3.3" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.2.5" />
+          <element id="library" level="project" name="Maven: org.kurento:kurento-client:6.6.2" />
+          <element id="library" level="project" name="Maven: org.kurento:kurento-jsonrpc-client:6.6.2" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: org.kurento:kurento-commons:6.6.2" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.5" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:19.0" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.3" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:fluent-hc:4.5.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.13" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler-proxy:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-socks:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.1.5.Final" />
+          <element id="library" level="project" name="Maven: org.kurento:kms-api-core:6.6.0" />
+          <element id="library" level="project" name="Maven: org.kurento:kms-api-elements:6.6.0" />
+          <element id="library" level="project" name="Maven: org.kurento:kms-api-filters:6.6.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/dblvideo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="dbl-video/web/Web" />
+    </root>
+  </artifact>
+</component>

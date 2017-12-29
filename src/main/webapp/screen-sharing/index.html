@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ScreenSharing</title>
+    <link rel="shortcut icon" href="../static/img/kurento.png" type="image/png"/>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/ekko-lightbox/5.2.0/ekko-lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/kurento_index.css">
+    <link rel="stylesheet" href="../static/css/one2many.css">
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+    <script src="https://cdn.bootcss.com/webrtc-adapter/zv4.1.1/adapter.js"></script>
+    <script src="../static/js/kurento_index1.js"></script>
+
+    <script src="../static/js/kurento-utils.js"></script>
+
+    <title>Kurento Tutorial 3: Video Call 1 to N with WebRTC</title>
+</head>
+<body>
+<header>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
+                <a class="navbar-brand" href=".">Kurento Tutorial</a>
+            </div>
+            <div class="collapse navbar-collapse"
+                 id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/Kurento/kurento-tutorial-java/tree/master/kurento-one2many-call"><span class="glyphicon glyphicon-file"></span> Source Code</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="page-header">
+
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <a id="presenter" href="#" class="btn btn-success"><span class="glyphicon glyphicon-play"></span> Presenter </a>
+                    <a id="viewer" href="#" class="btn btn-primary"><span class="glyphicon glyphicon-user"></span> Viewer</a>
+                    <a id="stop" href="#" class="btn btn-danger"><span class="glyphicon glyphicon-stop"></span> Stop</a>
+                </div>
+            </div>
+            <br /> <label class="control-label" for="console">Console</label><br>
+            <br>
+            <div id="console" class="democonsole">
+                <ul></ul>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div id="videoBig">
+                <video id="video" autoplay width="640px" height="480px"
+                       poster="../static/img/webrtc.png"></video>
+            </div>
+            <div>
+                <video id="webcam" autoplay width="640px" height="480px"
+                       poster="../static/img/webrtc.png"></video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../static/js/getScreenId.js"></script>
+<script src="../static/js/screen-sharing.js"></script>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dbl-video:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="dblvideo.war">
+      <element id="artifact" artifact-name="dbl-video:war exploded" />
+    </root>
+  </artifact>
+</component>
